@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# py2app
+build/
+dist/
+
+# 개인 설정 (config는 각자 다름)
+# config.json은 포함 안 함
+
+# macOS
+.DS_Store
+*.icns
+
+# 로그
+*.log
