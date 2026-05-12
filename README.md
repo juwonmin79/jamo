@@ -1,4 +1,4 @@
-# Jaso-Mon (자모)
+# Jaso-Mon (자몬)
 
 macOS에서 한글 파일명의 자소분리(NFD)를 NFC로 일괄 정규화하는 도구.
 
