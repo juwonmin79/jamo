@@ -1,4 +1,4 @@
-# Jamo (자모)
+# Jaso-Mon (자모)
 
 macOS에서 한글 파일명의 자소분리(NFD)를 NFC로 일괄 정규화하는 도구.
 
@@ -33,8 +33,8 @@ python3 -m pip install rumps tqdm py2app
 python3 setup.py py2app
 
 # 설치
-cp -r dist/Jamo.app /Applications/
-open /Applications/Jamo.app
+cp -r dist/Jaso-Mon.app /Applications/
+open /Applications/Jaso-Mon.app
 ```
 
 ### CLI 설치

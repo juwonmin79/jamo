@@ -25,7 +25,7 @@ INTERVAL_OPTIONS = {
 }
 
 
-class JamoApp(rumps.App):
+class JasoMonApp(rumps.App):
     def __init__(self):
         super().__init__("", quit_button=None)
         self.icon = str(PROJECT_DIR / "jaso_menubar.png")
@@ -70,7 +70,7 @@ class JamoApp(rumps.App):
             interval_menu.add(item)
         self.menu.add(interval_menu)
         self.menu.add(rumps.separator)
-        self.menu.add(rumps.MenuItem("Quit Jamo", callback=lambda _: rumps.quit_application()))
+        self.menu.add(rumps.MenuItem("Quit Jaso-Mon", callback=lambda _: rumps.quit_application()))
 
     def _run_now(self, _=None):
         if self._running:
@@ -192,7 +192,7 @@ class JamoApp(rumps.App):
 
 
 def main():
-    app = JamoApp()
+    app = JasoMonApp()
     app._schedule_next()
     app.run()
 
